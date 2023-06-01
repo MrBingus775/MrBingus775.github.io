@@ -3,7 +3,7 @@ author: Dimitri Zabelin
 email: dzabelin@pantheoninsights.com
 description: >- # this means to ignore newlines until "baseurl:"
   Et voluptate tempor cupidatat incididunt sunt nostrud. Fugiat in esse do aliqua mollit sunt do deserunt veniam nostrud commodo commodo eiusmod culpa. Ea laborum eiusmod in ad culpa ea. Irure fugiat non ut esse incididunt ut aliqua. Commodo fugiat culpa id fugiat dolore enim ullamco. Officia ea non elit nostrud reprehenderit exercitation ipsum consectetur Lorem exercitation.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/dzab" # the subpath of your site, e.g. /blog
 url: "panethoninsights.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_username: ZabelinDimitri
