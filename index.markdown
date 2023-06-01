@@ -8,7 +8,7 @@ layout: default
 
 
 <!-- Video will autoplay in the background -->
-<video autoplay muted loop>
+<video autoplay muted loop playsinline preload="auto">
   <source src="/assets/videos/stock_nexus.mp4" type="video/mp4">
 </video>
 
