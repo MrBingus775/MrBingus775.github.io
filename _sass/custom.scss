@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+// Animations
+@-webkit-keyframes appear {
+  0% { left: 500px; opacity: 0; }
+  100% { left: 16px; opacity: 1; }  
+}
+
+@keyframes appear {
+  0% { left: 500px; opacity: 0; }
+  100% { left: 16px; opacity: 1; }  
+}
+
+// Header / Footer stuff
+.footer-logo:hover {
+  opacity: 0.5;
+}
+
+// Ignore the box-sizing property set by bootstrap as it fucks up some of the spacings
+.site-footer *, .site-footer *::before, .site-footer *::after,
+.site-header *, .site-header *::before, .site-header *::after {
+    box-sizing: content-box !important;
+}
+
+
+// Useful stylings
+.center-text {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+  display: block;
+}
+
+.center-image {
+  display: flex;
+  justify-content: center;  
+}
+
+// Spacing variables
+$spacer: 1rem;
+
+@for $i from 1 through 5 {
+    // margin classes
+    .my-#{$i} {
+        margin-top: $spacer * $i;
+        margin-bottom: $spacer * $i;
+    }
+
+    .mt-#{$i} {
+        margin-top: $spacer * $i;
+    }
+
+    .mb-#{$i} {
+        margin-bottom: $spacer * $i;
+    }
+
+    .mx-#{$i} {
+        margin-left: $spacer * $i;
+        margin-right: $spacer * $i;
+    }
+
+    .mr-#{$i} {
+        margin-right: $spacer * $i;
+    }
+
+    .ml-#{$i} {
+        margin-left: $spacer * $i;
+    }
+
+    // padding classes
+    .py-#{$i} {
+        padding-top: $spacer * $i;
+        padding-bottom: $spacer * $i;
+    }
+
+    .pt-#{$i} {
+        padding-top: $spacer * $i;
+    }
+
+    .pb-#{$i} {
+        padding-bottom: $spacer * $i;
+    }
+
+    .px-#{$i} {
+        padding-left: $spacer * $i;
+        padding-right: $spacer * $i;
+    }
+
+    .pr-#{$i} {
+        padding-right: $spacer * $i;
+    }
+
+    .pl-#{$i} {
+        padding-left: $spacer * $i;
+    }
+}

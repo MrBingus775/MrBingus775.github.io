@@ -1,0 +1,45 @@
+.index-header {
+  @extend .center-text;
+  font-size: 70px;
+}
+
+.index-trifold__header {
+  @extend .center-text;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.index-trifold__content {
+  text-align: left;
+}
+
+.athena-img {
+  // Make her slowly appear...
+  -webkit-animation: appear 3s;
+  animation: appear 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.athena-div {
+  display: contents;
+}
+
+.index-body {
+  // background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  // add some background blur
+  backdrop-filter: blur(10px);
+  border: 1px solid rgb(217, 217, 217);
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
