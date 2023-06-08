@@ -3,27 +3,37 @@
   font-size: 70px;
 }
 
-.index-trifold__header {
+.index-top-tag {
   @extend .center-text;
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: rgb(32 26 171);
+}
+
+.index-top-subtitle {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(144 144 144);
+}
+
+.index-trifold__header {
+  text-align: center;
   font-size: 30px;
   margin-bottom: 20px;
 }
 
+.index-trifold__subheader {
+  font-size: 15px;
+  // font-weight: 600;
+  color: rgb(49, 49, 49);
+  text-align: justify;
+}
+
 .index-trifold__content {
-  text-align: left;
+  font-size: 13px;
+  text-align: justify;
 }
 
-.athena-img {
-  // Make her slowly appear...
-  -webkit-animation: appear 3s;
-  animation: appear 3s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.athena-div {
-  display: contents;
-}
 
 .index-body {
   // background: rgba(255, 255, 255, 0.8);
@@ -31,7 +41,6 @@
   border-radius: 10px;
   // add some background blur
   backdrop-filter: blur(10px);
-  border: 1px solid rgb(217, 217, 217);
 }
 
 video {
