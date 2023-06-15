@@ -1,0 +1,71 @@
+<!-- Render an svg icon located at icons/caret-circle-down-thin.svg -->
+<script>
+  
+  // Use jquery to listen to clicks to caret-wrap class
+  // When clicked, switch child img src from  "/assets/icons/caret-down.svg" to "/assets/icons/caret-up.svg"
+
+  $(document).ready(function() {
+
+    // Collapse / Uncollapse caret image change
+    $(".caret-wrap").click(function() {
+      var img = $(this).children("img");
+
+      var src = img.attr("src");
+      if (src == "/assets/icons/caret-down.svg") {
+        img.attr("src", "/assets/icons/caret-up.svg");
+        img.attr("caret_setting", "up");
+
+        // Remove all .index-trifold-hoverable classes from .index-trifold-section
+        $(".index-trifold-section").removeClass("index-trifold-hoverable");
+      } else {
+        img.attr("src", "/assets/icons/caret-down.svg");
+        img.attr("caret_setting", "down");
+
+        // Add back all .index-trifold-hoverable classes from .index-trifold-section
+        $(".index-trifold-section").addClass("index-trifold-hoverable");
+      }
+    });
+
+    function caretIsUp() {
+      return $(".caret-wrap").children("img").attr("caret_setting") == "up";
+    };
+
+    function collapseTrifoldSection(e) {
+      $(".index-trifold-section").each(function() {
+        if (caretIsUp()) { return; }
+        ($(this) || e).children(".collapse-trifold").collapse('show');
+        $(".caret-wrap").hide();
+      });
+    };
+
+    function uncollapseTrifoldSection(e) {
+      $(".index-trifold-section").each(function() {
+        if (caretIsUp()) { return; }
+        ($(this) || e).children(".collapse-trifold").collapse('hide');
+        $(".caret-wrap").show();
+      });
+    };
+
+    // Collapse / Uncollapse trifold content on hover
+    $(".index-trifold-sections").mouseenter(collapseTrifoldSection);
+    $(".index-trifold-sections").mouseleave(uncollapseTrifoldSection);
+
+    // Every 1 second, loop through each .index-trifold-section and log
+    // setInterval(function() {
+    //   $(".index-trifold-section").each(function() {
+    //     // Return early if we are hovering over this element or caret is up
+    //     if ($(this).is(":hover") || caretIsUp()) {
+    //       return;
+    //     }
+    //     $(this).children(".collapse-trifold").collapse('hide');
+    //   });
+    // }, 1000);
+
+    // Enable tilt
+    const tilt = $('.js-tilt').tilt({});
+    tilt.on('change', callback);  // parameters: event, transforms
+    tilt.on('tilt.mouseLeave', callback); // parameters: event
+    tilt.on('tilt.mouseEnter', callback); // parameters: event
+  })
+
+</script>

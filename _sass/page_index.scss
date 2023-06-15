@@ -1,13 +1,40 @@
-.index-header {
-  @extend .center-text;
-  font-size: 70px;
-}
-
 .index-top-tag {
-  @extend .center-text;
+  text-align: center;
   font-size: 48px;
   margin-bottom: 20px;
+  margin-top: 20px;
   color: rgb(32 26 171);
+}
+
+.index-trifold {
+  min-height: 220px;
+}
+
+.index-trifold-section {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 3px;
+  margin-right: 3px;
+  position: relative;
+  top: 0;
+  border-radius: 10px;
+}
+
+.index-trifold-hoverable {
+  transition: all ease 1s;
+}
+
+.index-trifold-hoverable:hover {
+  padding-top: 10px;
+  top: -18px;
+  box-shadow: 0 0 3px rgb(109, 109, 109);
+}
+
+.index-pre-trifold {
+  text-align: center;
+  // color: #fc8900;
+  color: black;
+  font-size: 22px
 }
 
 .index-top-subtitle {
@@ -27,20 +54,26 @@
   // font-weight: 600;
   color: rgb(49, 49, 49);
   text-align: justify;
+  margin-bottom: 0px;
 }
 
 .index-trifold__content {
+  padding-top: 15px;
   font-size: 13px;
   text-align: justify;
 }
 
 
 .index-body {
-  // background: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 10px;
   // add some background blur
   backdrop-filter: blur(10px);
+}
+
+.caret-wrap:hover {
+  filter: opacity(0.3);
+  cursor: pointer;
 }
 
 video {
