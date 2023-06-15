@@ -31,7 +31,7 @@ order: 5
           <div class="col-md index-trifold-section index-trifold-hoverable">
               <h5 class="index-trifold__header">♟️ Geopolitics</h5>
               <p class="index-trifold__subheader">
-                The impact of political volatility on financial markets will deepen and widen as international relations evolve and mutate
+                The impact of political volatility on financial markets will deepen and widen as international relations evolve and mutate.
               </p>
               <p class="index-trifold__content collapse collapse-trifold">
                 Populism, nationalism, hegemonic rivalries, and deglobalization are secular risks affecting businesses that are vulnerable to changes in global geopolitics. Pantheon Insights helps its clients navigate the labyrinth of international relations, foreign policy, and geopolitical trends affecting their overseas operations.
@@ -72,7 +72,7 @@ order: 5
       <hr class="mb-5"/>
 
       <div style="text-align: center;">
-        <p>Interested in working with us?</p>
+        <h5>Interested in working with us?</h5>
         <button type="button" class="btn btn-primary btn-lg">Get in touch</button>
       </div>
 

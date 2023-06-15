@@ -18,19 +18,5 @@ theme: minima
 plugins:
   - jekyll-feed
 
-page_paths:
-  - title: About
-    url: /about/
-    order: 1
-  - title: Consulting Services
-    url: /services/
-    order: 2
-  - title: Daily Insights
-    url: /insights/
-    order: 3
-  - title: Contact
-    url: /contact/
-    order: 4
-
 sass:
   sass_dir: _sass
