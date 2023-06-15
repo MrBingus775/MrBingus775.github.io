@@ -28,6 +28,7 @@
   padding-top: 10px;
   top: -18px;
   box-shadow: 0 0 3px rgb(109, 109, 109);
+  background-color: white;
 }
 
 .index-pre-trifold {
@@ -68,8 +69,16 @@
   padding: 20px;
   border-radius: 10px;
   // add some background blur
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(2px);
+  // background-color: white;
 }
+
+@supports not (backdrop-filter: blur(2px)) {
+  .index-body {
+    background-color: white;
+  }
+}
+
 
 .caret-wrap:hover {
   filter: opacity(0.3);

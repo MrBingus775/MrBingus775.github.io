@@ -22,6 +22,20 @@
     box-sizing: content-box !important;
 }
 
+// Override bootstrap's defualt primary color so its a darker blue
+.btn-primary {
+  background-color: rgb(32 26 171);
+  border-color: rgb(18, 14, 130);
+  transition: all ease 1s;
+}
+
+.btn-primary:hover {
+  // Make the hover background psychedelic gradient of pink through green
+  background-color: #e66465;
+  border-color: black;
+  
+}
+
 
 // Useful stylings
 .center-text {

@@ -129,7 +129,9 @@ order: 5
     <div class="index-previously-featured">
       <h2>Previously featured on</h2>
 
-      <img src="assets/images/previously_featured.png" alt="featured on" width="100%" height="auto"/>
+      <div class="center-image">
+        <img src="assets/images/previously_featured.png" alt="featured on" width="100%" height="auto"/>
+      </div>
     </div>
 
     <div class="my-5"></div>
