@@ -73,7 +73,7 @@ order: 5
 
       <div style="text-align: center;">
         <h5>Interested in working with us?</h5>
-        <button type="button" class="btn btn-primary btn-lg">Get in touch</button>
+        <a href="/contact" class="btn btn-primary btn-lg">Get in touch</a>
       </div>
 
       <hr class="mt-5"/>
