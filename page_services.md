@@ -28,7 +28,7 @@ In an increasingly convoluted world, the threshold for understanding unprecedent
 </div>
 <hr class="mt-4 mb-4"/>
 
-## Geo-Series Forecasts
+### Geo-Series Forecasts
 Pantheon Insights offers a unique triad series analyzing the interplay and individual dynamics of geopolitical, geofinancial, and geoeconomic trends in Asia, the Americas, Europe and Africa. As the Rubik’s Cube of 21st-century globalization continues to confound business leaders, Pantheon Insights offers tools to understand trend-defining characteristics of the new global paradigm. 
 <div class="services-contact">
   <div style="text-align: center;">
@@ -37,7 +37,7 @@ Pantheon Insights offers a unique triad series analyzing the interplay and indiv
 </div>
 <hr class="mt-4 mb-4"/>
 
-## Thought Leadership
+### Thought Leadership
 Pantheon Insight partners with clients to produce comprehensive white papers, foster research collaborations, op-eds, and original thought leadership on the intersection of geopolitics, markets, and economies. Our expertise drives informed discussions and empowers our clients to make sound, strategic decisions in a rapidly evolving world.
 <div class="services-contact">
   <div style="text-align: center;">
