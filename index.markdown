@@ -18,9 +18,9 @@ order: 5
     <h2 class="index-top-tag">We are in a new phase of globalization</h2>
     <h4 class="index-top-subtitle">Pantheon Insights leverages OSINT research methods and data to analyze how these secular trends impact global business operations, cross-border capital flows, and economic dynamism</h4>
     <div class="mt-4"></div>
-    <div class="index-pre-trifold">
-      <p>Pantheon Insights is a boutique consulting firm specializing in the intersection of</p>
-    </div>
+    <!-- <div class="index-pre-trifold"> -->
+      <!-- <p>Pantheon Insights is a boutique consulting firm specializing in the intersection of</p> -->
+    <!-- </div> -->
     <div class="mt-4"></div>
   </div>
 
@@ -29,7 +29,7 @@ order: 5
     <div class="index-trifold center-text">
       <div class="row index-trifold-sections">
           <div class="col-md index-trifold-section index-trifold-hoverable">
-              <h5 class="index-trifold__header">♟️ Geopolitics</h5>
+              <h5 class="index-trifold__header">Geopolitics</h5>
               <p class="index-trifold__subheader">
                 The impact of political volatility on financial markets will deepen and widen as international relations evolve and mutate.
               </p>
@@ -38,7 +38,7 @@ order: 5
               </p>
           </div>
           <div class="col-md index-trifold-section index-trifold-hoverable">
-              <h5 class="index-trifold__header">🏦 Markets</h5>
+              <h5 class="index-trifold__header">Markets</h5>
               <p class="index-trifold__subheader">
                 Geopolitical tornados of sanctions, trade disputes, and wars are afflicting markets and clouding the outlook for investors. 
               </p>
@@ -47,7 +47,7 @@ order: 5
               </p>
           </div>
           <div class="col-md index-trifold-section index-trifold-hoverable">
-              <h5 class="index-trifold__header">🌎 Economies</h5>
+              <h5 class="index-trifold__header">Economies</h5>
               <p class="index-trifold__subheader">
                 Geopolitics is pressuring nation states to orient away from efficient integration and towards prioritizing domestic security.
               </p>
@@ -91,7 +91,7 @@ order: 5
             <div class="card mb-3">
               <img src="/assets/images/utopia1.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title"><a href="">Title of featured article #1</a></h5>
+                <h5 class="card-title"><a target="_blank" href="https://www.dailyfx.com/education/macro-fundamentals/how-to-trade-politics.html">How to Trade the Impact of Politics on Global Financial Markets </a></h5>
                 <p class="card-text">With a short blurb of what it's about...</p>
                 <p class="card-text"><small class="text-body-secondary">Published Jun 15 2023</small></p>
               </div>
@@ -101,7 +101,7 @@ order: 5
             <div class="card mb-3">
               <img src="/assets/images/utopia2.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title"><a href="">Title of featured article #2</a></h5>
+                <h5 class="card-title"><a target="_blank" href="https://www.weforum.org/agenda/2023/03/what-do-talks-about-a-south-american-common-currency-say-about-globalization/">Here's what talks about a common currency for Latin America mean for globalization</a></h5>
                 <p class="card-text">With a short blurb of what it's about...</p>
                 <p class="card-text"><small class="text-body-secondary">Published Jun 14 2023</small></p>
               </div>
@@ -111,7 +111,17 @@ order: 5
             <div class="card mb-3">
               <img src="/assets/images/utopia3.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title"><a href="">Title of featured article #3</a></h5>
+                <h5 class="card-title"><a target="_blank" href="https://thediplomat.com/2019/12/us-china-trade-war-impact-on-capital-markets-and-commodities/">US-China Trade War: Impact on Capital Markets and Commodities</a></h5>
+                <p class="card-text">With a short blurb of what it's about...</p>
+                <p class="card-text"><small class="text-body-secondary">Published Jun 13 2023</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">        
+            <div class="card mb-3">
+              <img src="/assets/images/utopia1.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a target="_blank" href="https://oxfordpoliticalreview.com/2021/07/16/how-the-eurozones-history-undermined-its-response-to-covid-19/">How the Eurozone’s History Undermined its Response to COVID-19</a></h5>
                 <p class="card-text">With a short blurb of what it's about...</p>
                 <p class="card-text"><small class="text-body-secondary">Published Jun 13 2023</small></p>
               </div>

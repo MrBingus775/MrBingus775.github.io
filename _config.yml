@@ -2,11 +2,8 @@ title: Pantheon Insights
 author: Dimitri Zabelin
 email: dzabelin@pantheoninsights.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Pantheon Insights is a boutique consulting firm specializing in the intersection of 
-  geopolitics, markets, and economies. Our philosophical foundation draws on the ancient symbolism 
-  of the Pantheon: A collective set of principles that guides people and institutions in 
-  times of uncertainty. We work closely with clients across the world to provide bespoke, 
-  strategic insights for navigating and prospering in the dynamic terrain of 21st-century geopolitics.
+  Pantheon Insights work closely with clients across the world to provide bespoke, strategic 
+  insights for navigating and prospering in the dynamic terrain of 21st-century geopolitics.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "panethoninsights.com" # the base hostname & protocol for your site, e.g. http://example.com
 
