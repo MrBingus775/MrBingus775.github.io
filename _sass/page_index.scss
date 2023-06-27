@@ -45,6 +45,8 @@
 }
 
 .index-top-subtitle {
+  margin-left: 8%;
+  margin-right: 8%;
   text-align: center;
   font-size: 20px;
   color: rgb(55, 55, 55);
@@ -69,6 +71,10 @@
   text-align: justify;
 }
 
+.img-no-pointer {
+  // Disallow clicking
+  pointer-events: none;
+}
 
 // Make .index-trifold__subheader 15px on medium screens and down
 @media (max-width: 1100px) {

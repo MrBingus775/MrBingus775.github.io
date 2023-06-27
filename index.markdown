@@ -16,7 +16,9 @@ order: 5
 <div class="container">  
   <div style="backdrop-filter: blur(0px);">
     <h2 class="index-top-tag">We are in a new phase of globalization</h2>
-    <h4 class="index-top-subtitle">Pantheon Insights leverages OSINT research methods and data to analyze how these secular trends impact global business operations, cross-border capital flows, and economic dynamism</h4>
+    <h4 class="index-top-subtitle">
+        Pantheon Insights leverages OSINT research methods and multivariate data analysis to analyze how secular shifts in 21st-century geopolitics impacts businesses, markets, and economies
+    </h4>
     <div class="mt-4"></div>
     <!-- <div class="index-pre-trifold"> -->
       <!-- <p>Pantheon Insights is a boutique consulting firm specializing in the intersection of</p> -->
@@ -89,41 +91,41 @@ order: 5
         <div class="row mt-4">
           <div class="col-sm-6">        
             <div class="card mb-3">
-              <img src="/assets/images/utopia1.jpeg" class="card-img-top" alt="...">
+              <img src="/assets/images/articles/dfx_1.jpeg" class="card-img-top img-no-pointer" alt="...">
               <div class="card-body">
                 <h5 class="card-title"><a target="_blank" href="https://www.dailyfx.com/education/macro-fundamentals/how-to-trade-politics.html">How to Trade the Impact of Politics on Global Financial Markets </a></h5>
-                <p class="card-text">With a short blurb of what it's about...</p>
-                <p class="card-text"><small class="text-body-secondary">Published Jun 15 2023</small></p>
+                <p class="card-text">A cornerstone of DailyFX's educational content, Dimitri provides a concise, and actionable guide for optimizing trading strategies around geopolitical risks</p>
+                <p class="card-text"><small class="text-body-secondary">Published May 21, 2021</small></p>
               </div>
             </div>
           </div>
           <div class="col-sm-6">        
             <div class="card mb-3">
-              <img src="/assets/images/utopia2.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"><a target="_blank" href="https://www.weforum.org/agenda/2023/03/what-do-talks-about-a-south-american-common-currency-say-about-globalization/">Here's what talks about a common currency for Latin America mean for globalization</a></h5>
-                <p class="card-text">With a short blurb of what it's about...</p>
-                <p class="card-text"><small class="text-body-secondary">Published Jun 14 2023</small></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">        
-            <div class="card mb-3">
-              <img src="/assets/images/utopia3.jpeg" class="card-img-top" alt="...">
+              <img src="/assets/images/articles/diplomat_1.JPEG" class="card-img-top img-no-pointer" alt="...">
               <div class="card-body">
                 <h5 class="card-title"><a target="_blank" href="https://thediplomat.com/2019/12/us-china-trade-war-impact-on-capital-markets-and-commodities/">US-China Trade War: Impact on Capital Markets and Commodities</a></h5>
-                <p class="card-text">With a short blurb of what it's about...</p>
-                <p class="card-text"><small class="text-body-secondary">Published Jun 13 2023</small></p>
+                <p class="card-text">In this article, Dimitri was contacted by a journalist from The Diplomat to give his outlook on the future of the US-China trade war and its multi-iterated ramifications</p>
+                <p class="card-text"><small class="text-body-secondary">Published Dec 10, 2019</small></p>
               </div>
             </div>
           </div>
           <div class="col-sm-6">        
             <div class="card mb-3">
-              <img src="/assets/images/utopia1.jpeg" class="card-img-top" alt="...">
+              <img src="/assets/images/articles/opr_1.JPEG" class="card-img-top img-no-pointer" alt="...">
               <div class="card-body">
                 <h5 class="card-title"><a target="_blank" href="https://oxfordpoliticalreview.com/2021/07/16/how-the-eurozones-history-undermined-its-response-to-covid-19/">How the Eurozone’s History Undermined its Response to COVID-19</a></h5>
-                <p class="card-text">With a short blurb of what it's about...</p>
-                <p class="card-text"><small class="text-body-secondary">Published Jun 13 2023</small></p>
+                <p class="card-text">Blending history, the Mandalorian, and sovereign debt crises, Dimitri outlines how the Eurozone’s internal history of fractured relations inhibited its response to the pandemic</p>
+                <p class="card-text"><small class="text-body-secondary">Published Jul 16, 2021</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">        
+            <div class="card mb-3">
+              <img src="/assets/images/articles/wef_1.JPEG" class="card-img-top img-no-pointer" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a target="_blank" href="https://www.weforum.org/agenda/2023/03/what-do-talks-about-a-south-american-common-currency-say-about-globalization/">Here's what talks about a common currency for Latin America mean for globalization</a></h5>
+                <p class="card-text">Amid rapid-fire headlines about a common South American currency, Dimitri delves deeply into the driving forces behind the dedollarization pivot, and what it means for the global economy</p>
+                <p class="card-text"><small class="text-body-secondary">Published Mar 1, 2023</small></p>
               </div>
             </div>
           </div>
@@ -140,7 +142,7 @@ order: 5
       <h2>Previously featured on</h2>
 
       <div class="center-image">
-        <img src="assets/images/previously_featured.png" alt="featured on" width="100%" height="auto"/>
+        <img class="img-no-pointer" src="assets/images/previously_featured.png" alt="featured on" width="100%" height="auto"/>
       </div>
     </div>
 

@@ -49,23 +49,6 @@
     // Collapse / Uncollapse trifold content on hover
     $(".index-trifold-sections").mouseenter(collapseTrifoldSection);
     $(".index-trifold-sections").mouseleave(uncollapseTrifoldSection);
-
-    // Every 1 second, loop through each .index-trifold-section and log
-    // setInterval(function() {
-    //   $(".index-trifold-section").each(function() {
-    //     // Return early if we are hovering over this element or caret is up
-    //     if ($(this).is(":hover") || caretIsUp()) {
-    //       return;
-    //     }
-    //     $(this).children(".collapse-trifold").collapse('hide');
-    //   });
-    // }, 1000);
-
-    // Enable tilt
-    const tilt = $('.js-tilt').tilt({});
-    tilt.on('change', callback);  // parameters: event, transforms
-    tilt.on('tilt.mouseLeave', callback); // parameters: event
-    tilt.on('tilt.mouseEnter', callback); // parameters: event
   })
 
 </script>

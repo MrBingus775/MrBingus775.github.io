@@ -13,7 +13,7 @@ order: 4
             <h2 class="mb-4">Contact Pantheon Insights</h2>
 
             <p>
-              Please use the form below to inquire about Pantheon Insights speaking at your event, media inquiries, or a general inquiry.
+              Please use the form below to inquire about Pantheon Insights speaking at your event, request consulting services, or address general queries: 
             </p>
 
             <br/>

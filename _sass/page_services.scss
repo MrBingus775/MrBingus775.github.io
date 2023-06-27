@@ -7,3 +7,30 @@
   font-size: 20px;
   text-align: justify;
 }
+
+
+.scroller {
+  height: 600px;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.scroller section {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 15%;
+  text-align: center;
+  scroll-snap-align: center;
+}
+
+section {
+  // Make height 100% of viewport height minus 254 pixels
+  min-height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-caret:hover {
+  filter: opacity(0.3);
+  cursor: pointer;
+}
