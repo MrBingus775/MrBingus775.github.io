@@ -29,6 +29,18 @@
   scroll-snap-align: center;
 }
 
+// If screen size is 900 px or less, make scroll-snap-type start
+@media (max-width: 900px) {
+  .scroller {
+    scroll-snap-align: start;
+  }
+
+  // Make all buttons that are deeply nested children of .services-txt 12px
+  .scroller .btn-lg {
+    font-size: 14px !important;
+  }
+}
+
 section {
   // Make height 100% of viewport height minus 254 pixels
   min-height: 600px;
