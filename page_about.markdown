@@ -37,7 +37,7 @@ Interested in Pantheon Insights speaking at your event, media inquiries, or a ge
   </div>
   <div class="col-md-5">
     <div class="center-image mt-5">
-      <img style="width: 370px; border-radius: 10px; filter: grayscale(100%);" src="/assets/images/planet.jpeg">
+      <img style="width: 80%; border-radius: 10px; filter: grayscale(100%);" src="/assets/images/planet.jpeg">
     </div>
   </div>
 </div>
@@ -59,9 +59,9 @@ Interested in Pantheon Insights speaking at your event, media inquiries, or a ge
       </p>
     </div>
   </div>
-  <div class="col-md-5 mt-5">
+  <div class="col-md-5 mt-2">
     <div class="center-image">
-      <img style="width: 320px; border-radius: 10px; filter: grayscale(100%);" src="/assets/images/dimitri.jpg">
+      <img style="width: 80%; border-radius: 10px; filter: grayscale(100%);" src="/assets/images/dimitri.jpg">
     </div>
   </div>
 </div>
