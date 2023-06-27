@@ -8,6 +8,12 @@
   text-align: justify;
 }
 
+// If screen is 900px or less, make font size 16px
+@media (max-width: 900px) {
+  .services-txt {
+    font-size: 16px;
+  }
+}
 
 .scroller {
   height: 600px;
