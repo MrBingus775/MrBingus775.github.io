@@ -17,15 +17,15 @@ order: 4
             </p>
 
             <br/>
+            <form action="https://api.web3forms.com/submit" method="POST">
 
-            <form id="contactForm">
                 <div class="mb-3">
-                    <label for="fullName" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" id="fullName" required>
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" name="name" id="name" required>
                 </div>
                 <div class="mb-3">
                     <label for="email" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="email" required>
+                    <input type="email" class="form-control" name="email" id="email" required>
                 </div>
                 <div class="mb-3">
                     <label for="phone" class="form-label">Phone number</label>
@@ -35,45 +35,23 @@ order: 4
                     <label for="message" class="form-label">Your message</label>
                     <textarea class="form-control" id="message" rows="5" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+
+                <input type="hidden" name="access_key" value="ff2d64e5-760e-40d5-bace-a9df6f0ddf1e">
+                <button class="btn btn-primary" type="submit">Submit</button>
+            
             </form>
+            
+            <script src="https://web3forms.com/client/script.js" async defer></script>
+
+            <script>
+                // On document ready, clear all the input forms above
+                $(document).ready(function() {
+                    document.getElementById('name').value = '';
+                    document.getElementById('email').value = '';
+                    document.getElementById('phone').value = '';
+                    document.getElementById('message').value = '';
+                });
+            </script>
         </div>
     </div>
 </div>
-
-<script src="https://cdn.jsdelivr.net/npm/web3forms/dist/web3forms.js"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const contactForm = document.getElementById('contactForm');
-
-        contactForm.addEventListener('submit', function (e) {
-            e.preventDefault();
-
-            const fullName = document.getElementById('fullName').value;
-            const email = document.getElementById('email').value;
-            const phone = document.getElementById('phone').value;
-            const message = document.getElementById('message').value;
-
-            const formData = {
-                fullName,
-                email,
-                phone,
-                message
-            };
-
-            // Submit the form using Web3Forms
-            Web3Forms.submitForm({
-                formId: 'your-form-id',
-                apiKey: 'your-api-key',
-                data: formData,
-                onSuccess: function () {
-                    alert('Thank you for your message! We will get back to you soon.');
-                    contactForm.reset();
-                },
-                onError: function () {
-                    alert('An error occurred while submitting the form. Please try again later.');
-                }
-            });
-        });
-    });
-</script>
