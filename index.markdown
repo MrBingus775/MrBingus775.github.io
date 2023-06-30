@@ -12,6 +12,22 @@ order: 5
   <source src="/assets/videos/stock_nexus.mp4" type="video/mp4">
 </video>
 
+<!-- We run this script to prevent video for playing in a mobile browser -->
+<!-- This is necessary as most mobile browsers show a nasty "play" button in the background -->
+<script>
+  // Function to detect if the user is using a mobile browser
+  function isMobileBrowser() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  }
+
+  // Check if the user is on a mobile browser
+  if (isMobileBrowser()) {
+    var videoElement = document.getElementById('video');
+    videoElement.style.display = 'none'; // Hide the video element
+  }
+</script>
+
+
 
 <div class="container">  
   <div style="backdrop-filter: blur(0px);">

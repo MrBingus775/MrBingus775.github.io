@@ -6,8 +6,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   insights for navigating and prospering in the dynamic terrain of 21st-century geopolitics.
 baseurl: "/" # the subpath of your site, e.g. /blog
 # url: "panethoninsights.com" # the base hostname & protocol for your site, e.g. http://example.com
-domain: panetheoninsights.com       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: http://panetheoninsights.com/  # the base hostname and protocol for your site, e.g. http://example.com
+domain: https://panetheoninsights.com       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://panetheoninsights.com/  # the base hostname and protocol for your site, e.g. http://example.com
 
 
 twitter_username: ZabelinDimitri
