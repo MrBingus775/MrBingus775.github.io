@@ -16,7 +16,8 @@ body, h1, h2, h3, h4, h5, h6,
   * Basic styling
   */
  body {
-   font: $base-font-weight $base-font-size / $base-line-height $base-font-family;
+  //  font: $base-font-weight $base-font-size / $base-line-height $base-font-family;
+   font: 400 16px / 1.5 "Quattrocento", -apple-system, sans-serif; // TODO (BAD HACK) - for some reason the above doesn't compile
    color: $text-color;
    background-color: $background-color;
    -webkit-text-size-adjust: 100%;

@@ -91,7 +91,7 @@ order: 5
         <div class="row mt-4">
           <div class="col-sm-6">        
             <div class="card mb-3">
-              <img src="/assets/images/articles/dfx_1.jpeg" class="card-img-top img-no-pointer" alt="...">
+              <img src="/assets/images/articles/dfx1.jpeg" class="card-img-top img-no-pointer" alt="...">
               <div class="card-body">
                 <h5 class="card-title"><a target="_blank" href="https://www.dailyfx.com/education/macro-fundamentals/how-to-trade-politics.html">How to Trade the Impact of Politics on Global Financial Markets </a></h5>
                 <p class="card-text">A cornerstone of DailyFX's educational content, Dimitri provides a concise, and actionable guide for optimizing trading strategies around geopolitical risks</p>
@@ -101,7 +101,7 @@ order: 5
           </div>
           <div class="col-sm-6">        
             <div class="card mb-3">
-              <img src="/assets/images/articles/diplomat_1.JPEG" class="card-img-top img-no-pointer" alt="...">
+              <img src="/assets/images/articles/diplomat1.jpeg" class="card-img-top img-no-pointer" alt="...">
               <div class="card-body">
                 <h5 class="card-title"><a target="_blank" href="https://thediplomat.com/2019/12/us-china-trade-war-impact-on-capital-markets-and-commodities/">US-China Trade War: Impact on Capital Markets and Commodities</a></h5>
                 <p class="card-text">In this article, Dimitri was contacted by a journalist from The Diplomat to give his outlook on the future of the US-China trade war and its multi-iterated ramifications</p>
@@ -111,7 +111,7 @@ order: 5
           </div>
           <div class="col-sm-6">        
             <div class="card mb-3">
-              <img src="/assets/images/articles/opr_1.JPEG" class="card-img-top img-no-pointer" alt="...">
+              <img src="/assets/images/articles/opr1.jpeg" class="card-img-top img-no-pointer" alt="...">
               <div class="card-body">
                 <h5 class="card-title"><a target="_blank" href="https://oxfordpoliticalreview.com/2021/07/16/how-the-eurozones-history-undermined-its-response-to-covid-19/">How the Eurozone’s History Undermined its Response to COVID-19</a></h5>
                 <p class="card-text">Blending history, the Mandalorian, and sovereign debt crises, Dimitri outlines how the Eurozone’s internal history of fractured relations inhibited its response to the pandemic</p>
@@ -121,7 +121,7 @@ order: 5
           </div>
           <div class="col-sm-6">        
             <div class="card mb-3">
-              <img src="/assets/images/articles/wef_1.JPEG" class="card-img-top img-no-pointer" alt="...">
+              <img src="/assets/images/articles/wef1.jpeg" class="card-img-top img-no-pointer" alt="...">
               <div class="card-body">
                 <h5 class="card-title"><a target="_blank" href="https://www.weforum.org/agenda/2023/03/what-do-talks-about-a-south-american-common-currency-say-about-globalization/">Here's what talks about a common currency for Latin America mean for globalization</a></h5>
                 <p class="card-text">Amid rapid-fire headlines about a common South American currency, Dimitri delves deeply into the driving forces behind the dedollarization pivot, and what it means for the global economy</p>
