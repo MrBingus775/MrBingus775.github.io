@@ -8,7 +8,7 @@ order: 5
 
 
 <!-- Video will autoplay in the background -->
-<video autoplay muted loop playsinline preload="auto">
+<video id="bg_video" autoplay muted loop playsinline preload="auto">
   <source src="/assets/videos/stock_nexus.mp4" type="video/mp4">
 </video>
 
@@ -22,7 +22,7 @@ order: 5
 
   // Check if the user is on a mobile browser
   if (isMobileBrowser()) {
-    var videoElement = document.getElementById('video');
+    var videoElement = document.getElementById('bg_video');
     videoElement.style.display = 'none'; // Hide the video element
   }
 </script>
