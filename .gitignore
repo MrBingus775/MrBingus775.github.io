@@ -1,4 +1,6 @@
-_site
+## Right now we're going to build the site to _site and have the server serve from there
+## Ideally, we shouldn't have to do this as Github Pages should be able to serve from the root
+# _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
