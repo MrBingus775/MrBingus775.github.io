@@ -10,7 +10,7 @@ order: 3
 <div id="substack-feed-embed"></div>
 
 <p class="mt-5" style="font-size: 24px; text-align: center;">
-For more daily insights, visit <a href="https://pantheoninsights.substack.com">my substack page</a>.
+For more daily insights, visit <a target="_blank" href="https://pantheoninsights.substack.com">my substack page</a>.
 </p>
 
 <script>
