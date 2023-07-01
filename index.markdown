@@ -71,9 +71,13 @@ order: 5
 
       <hr class="mb-5"/>
 
-      <div style="text-align: center;">
-        <h5>Interested in working with us?</h5>
-        <a href="/contact" class="btn btn-primary btn-lg">Get in touch</a>
+
+      <!-- Create a center aligned div -->
+      <div class="center-text" style="text-align: center;">
+        <div class="mt-5"></div>
+        <h5>Subscribe to our <a target="_blank" href="https://pantheoninsights.substack.com">newsletter</a></h5>
+        <p>Get our daily insights delivered to your inbox</p>
+        <div id="custom-substack-embed"></div>
       </div>
 
       <hr class="mt-5"/>
@@ -146,4 +150,31 @@ order: 5
 
     <div class="my-5"></div>
 
+
+    <div class="index-work-with-us">
+      <div style="margin-top: 40px;"></div>
+
+      <hr class="mb-5"/>
+
+      <div style="text-align: center;">
+        <h5>Interested in working with us?</h5>
+        <a href="/contact" class="btn btn-primary btn-lg">Get in touch</a>
+      </div>
+    </div>
   </div>
+
+<script>
+  window.CustomSubstackWidget = {
+    substackUrl: "pantheoninsights.substack.com",
+    placeholder: "Enter your email...",
+    buttonText: "Subscribe",
+    theme: "custom",
+    colors: {
+      primary: "#00A1FF",
+      input: "#FFFFFF",
+      email: "#313131",
+      text: "#FFFFFF",
+    }
+  };
+</script>
+<script src="https://substackapi.com/widget.js" async></script>
