@@ -16,7 +16,7 @@ For more daily insights, visit <a target="_blank" href="https://pantheoninsights
 <script>
   window.SubstackFeedWidget = {
     substackUrl: "pantheoninsights.substack.com",
-    posts: 5,
+    posts: 6,
     layout: "right"
   };
 </script>
