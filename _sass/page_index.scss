@@ -109,6 +109,16 @@
   }
 }
 
+.custom-substack-widget {
+  border-radius: 12px;
+}
+
+// Select children input and button of .custom-substack-widget
+.custom-substack-widget > input,
+.custom-substack-widget > button {
+  font-family: $base-font-family !important;
+}
+
 
 .card-title {
   font-size: 24px;
