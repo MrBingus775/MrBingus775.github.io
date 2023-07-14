@@ -76,7 +76,7 @@ order: 5
       <div class="center-text" style="text-align: center;">
         <div class="mt-5"></div>
         <h5>Subscribe to our <a target="_blank" href="https://pantheoninsights.substack.com">newsletter</a></h5>
-        <p>Get our daily insights delivered to your inbox</p>
+        <p>Get our weekly insights delivered to your inbox</p>
         <div id="custom-substack-embed"></div>
       </div>
 
