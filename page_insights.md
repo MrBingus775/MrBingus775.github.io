@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Daily Insights
+title: Weekly Insights
 permalink: /insights/
 path: /insights/
 order: 3
