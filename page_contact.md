@@ -29,11 +29,11 @@ order: 4
                 </div>
                 <div class="mb-3">
                     <label for="phone" class="form-label">Phone number</label>
-                    <input type="tel" class="form-control" id="phone" required>
+                    <input type="tel" class="form-control" id="phone" name="phone" required>
                 </div>
                 <div class="mb-3">
                     <label for="message" class="form-label">Your message</label>
-                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
                 </div>
 
                 <!-- access key directs to dzabelin@pantheoninsights.com -->
