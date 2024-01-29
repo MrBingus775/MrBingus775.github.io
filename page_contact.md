@@ -28,8 +28,8 @@ order: 4
                     <input type="email" class="form-control" name="email" id="email" required>
                 </div>
                 <div class="mb-3">
-                    <label for="phone" class="form-label">Phone number</label>
-                    <input type="tel" class="form-control" id="phone" name="phone" required>
+                    <label for="phone" class="form-label">Phone number <span style="color: grey;">(Optional)</span></label>
+                    <input type="tel" class="form-control" id="phone" name="phone">
                 </div>
                 <div class="mb-3">
                     <label for="message" class="form-label">Your message</label>
