@@ -5,6 +5,7 @@ gem "minima", "~> 2.5.1"
 
 # If you want to use GitHub Pages, remove the "gem 'jekyll'" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
+# gem "jekyll", "~> 3.9.3"
 gem "github-pages", "~> 228", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
@@ -43,6 +44,8 @@ group :jekyll_plugins do
   gem "jekyll-theme-time-machine", "~> 0.2.0"
   gem "jekyll-titles-from-headings", "~> 0.5.3"
   gem "jemoji", "~> 0.12.0"
+  gem "concurrent-ruby", "~> 1.2.2"
+  gem "webrick", "~> 1.8.1"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

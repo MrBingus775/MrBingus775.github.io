@@ -60,6 +60,27 @@
     // Collapse / Uncollapse trifold content on hover
     $(".index-trifold-sections").mouseenter(collapseTrifoldSection);
     $(".index-trifold-sections").mouseleave(uncollapseTrifoldSection);
+
+    // Add this new code for Intersection Observer
+    const observerOptions = {
+      root: null, // use viewport
+      threshold: 0.1, // trigger when at least 10% of target is visible
+      rootMargin: '0px'
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+          observer.unobserve(entry.target); // Stop observing once shown
+        }
+      });
+    }, observerOptions);
+
+    // Observe all slide-in elements
+    document.querySelectorAll('.slide-in, .slide-in-slower, .slide-in-fast, .slide-in-reverse').forEach((elem) => {
+      observer.observe(elem);
+    });
   })
 
 </script>

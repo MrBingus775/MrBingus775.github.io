@@ -4,20 +4,22 @@ title: Contact
 hide_title: true
 permalink: /contact/
 path: /contact/
+description: "Want to get in touch with Pantheon Insights?"
 order: 4
 ---
 
-<div class="container mt-5">
+<div class="container mt-5 slide-in">
+    <div class="" style="margin-top: 10vh;">
     <div class="row justify-content-center">
         <div class="col-lg-6">
-            <h2 class="mb-4">Contact Pantheon Insights</h2>
+            <h1 class="mb-4">Contact Pantheon Insights</h1>
 
-            <p>
+            <p style="font-size: 1.2rem;">
               Please use the form below to inquire about Pantheon Insights speaking at your event, request consulting services, or address general queries: 
             </p>
 
             <br/>
-            <form action="https://api.web3forms.com/submit" method="POST">
+            <form action="https://api.web3forms.com/submit" method="POST" style="font-size: 1.2rem;">
 
                 <div class="mb-3">
                     <label for="name" class="form-label">Full Name</label>
@@ -38,7 +40,7 @@ order: 4
 
                 <!-- access key directs to dzabelin@pantheoninsights.com -->
                 <input type="hidden" name="access_key" value="e6b161a3-d66b-40bb-b92f-1c6f2132cd3a"/>
-                <button class="btn btn-primary" type="submit">Submit</button>
+                <button class="primary-button" type="submit">Submit</button>
             
             </form>
             
@@ -55,4 +57,5 @@ order: 4
             </script>
         </div>
     </div>
+    <div class="" style="margin-top: 15vh;">
 </div>

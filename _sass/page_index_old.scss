@@ -1,0 +1,143 @@
+.index-top-tag {
+  text-align: center;
+  font-size: 69px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: rgb(0, 161, 255);
+}
+
+@media (max-width: 1100px) {
+  .index-top-tag {
+    font-size: 40px;
+  }
+}
+
+.index-trifold {
+  min-height: 220px;
+}
+
+.index-trifold-section {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 3px;
+  margin-right: 3px;
+  position: relative;
+  top: 0;
+  border-radius: 10px;
+}
+
+.index-trifold-hoverable {
+  transition: all ease 1s;
+}
+
+.index-trifold-hoverable:hover {
+  padding-top: 10px;
+  top: -18px;
+  box-shadow: 0 0 3px rgb(109, 109, 109);
+  background-color: white;
+}
+
+.index-pre-trifold {
+  text-align: center;
+  // color: #fc8900;
+  color: black;
+  font-size: 22px
+}
+
+.index-top-subtitle {
+  margin-left: 8%;
+  margin-right: 8%;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(55, 55, 55);
+}
+
+.index-trifold__header {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.index-trifold__subheader {
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 0px;
+}
+
+.index-trifold__content {
+  padding-top: 15px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.img-no-pointer {
+  // Disallow clicking
+  pointer-events: none;
+}
+
+// Make .index-trifold__subheader 15px on medium screens and down
+@media (max-width: 1100px) {
+  .index-trifold__subheader {
+    font-size: 16px;
+  }
+  .index-trifold__content {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .index-trifold__subheader {
+    font-size: 15px;
+  }
+  .index-trifold__content {
+    font-size: 15px;
+  }
+}
+
+.index-body {
+  padding: 20px;
+  border-radius: 10px;
+  // add some background blur
+  backdrop-filter: blur(2px);
+  // background-color: white;
+}
+
+@supports not (backdrop-filter: blur(2px)) {
+  .index-body {
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
+
+.custom-substack-widget {
+  border-radius: 14px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+// Select children input and button of .custom-substack-widget
+.custom-substack-widget > input,
+.custom-substack-widget > button {
+  font-family: $base-font-family !important;
+}
+
+
+.card-title {
+  font-size: 24px;
+}
+
+
+.caret-wrap:hover {
+  filter: opacity(0.3);
+  cursor: pointer;
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  z-index: -10;
+}

@@ -4,15 +4,11 @@
 .site-header {
   padding-top: 10px;
   padding-bottom: 5px;
-
   z-index: 10;
-  // border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
-
-  // Modded to prevent video from hiding header
   position: relative;
-  background: rgba(245, 245, 245, 0.54);
+  // border-top: 5px solid $grey-color-dark;
+  // border-bottom: 1px solid $grey-color-light;
 }
 
 .site-title {
@@ -216,7 +212,6 @@
   display: block;
   @include relative-font-size(1.5);
 }
-
 
 
 /**
