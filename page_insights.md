@@ -15,7 +15,7 @@ description: "A weekly, macro-focused report providing high-level analysis on gl
 
 
 <p class="mt-5 slide-in-slower" style="font-size: 24px; text-align: center;">
-For more weekly insights, visit <a target="_blank" href="https://pantheoninsights.substack.com">my substack page</a>.
+  View more strategic intelligence reports <a target="_blank" href="https://pantheoninsights.substack.com">here</a>.
 </p>
 
 <script>

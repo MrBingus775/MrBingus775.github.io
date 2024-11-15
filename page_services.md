@@ -4,7 +4,7 @@ title: Consulting Services
 permalink: /services/
 path: /services/
 order: 2
-description: "Executive briefings, speaking engagements, geo-series forecasts, and thought leadership."
+description: "Requests for advisory services, speaking engagements, strategic insights, and briefings"
 ---
 
 <div class="scroller slide-in" id="scroller">
