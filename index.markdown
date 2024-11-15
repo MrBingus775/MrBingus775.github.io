@@ -150,7 +150,7 @@ order: 5
       <div class="col-lg-6 index-work-with-us slide-in" style="border-right: 2px dotted #ddd; border-bottom: none;">
         <div style="margin-bottom: 150px;"></div>
         <div style="text-align: center;">
-          <h5 style="font-size: 24px;">Interested in working with us?</h5>
+          <h5 style="font-size: 24px;">Looking for consulting services?</h5>
           <br/>
           <a href="/contact" class="primary-button-lg">Get in touch</a>
         </div>
@@ -158,8 +158,8 @@ order: 5
       </div>
       <div class="col-lg-6 center-text slide-in-reverse" style="text-align: center;">
           <div style="margin-bottom: 150px;"></div>
-          <h4>Subscribe to our <a target="_blank" href="https://pantheoninsights.substack.com">weekly report</a></h4>
-          <p style="font-size: 20px; margin-bottom: 30px;">Get our strategic intelligence reports delivered to your inbox</p>
+          <h4><a target="_blank" href="https://pantheoninsights.substack.com">Stay up to date on geopolitics</a></h4>
+          <p style="font-size: 20px; margin-bottom: 30px;">Receive strategic intelligence reports straight to your inbox</p>
           <div id="custom-substack-embed" style="transform: scale(1.05);"></div>
           <div style="margin-bottom: 150px;"></div>
       </div>

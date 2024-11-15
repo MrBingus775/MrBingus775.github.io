@@ -22,7 +22,7 @@ order: 1
       <br/><br/>
       Interested to learn more, request a consulting service, or media inquiry?&nbsp;
       <br/><br/>
-      <a class="primary-button block mt-4" href="/contact">Contact us</a>
+      <a class="primary-button block mt-4" href="/contact">Get in touch</a>
       <br/><br/>
       </p>
     </div>
