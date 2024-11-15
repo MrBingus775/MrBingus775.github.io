@@ -135,8 +135,11 @@ order: 5
       <h1 class="text-center" style="margin-bottom: 100px;">Previously featured on</h1>
     </div>
     <div class="slide-in-reverse">
-      <div class="center-image">
+      <div class="center-image d-none d-lg-block">
         <img class="img-no-pointer" src="assets/images/previously_featured.png" alt="featured on" width="100%" height="auto"/>
+      </div>
+      <div class="center-image d-lg-none d-block">
+        <img class="img-no-pointer" src="assets/images/previously_featured_vert.png" alt="featured on" width="100%" height="auto"/>
       </div>
       <div style="margin-bottom: 150px;"></div>
     </div>
