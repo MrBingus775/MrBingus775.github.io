@@ -7,7 +7,7 @@ order: 5
 ---
 
 
-<div class="container min-vh-100" style="">
+<div class="container min-vh-100 index-container" style=";">
   <!-- Have a placeholder image slide in from left to right using CSS animations -->
   <div class="slide-in text-center" style="position: relative;">
     <!-- <div class="video-container">
