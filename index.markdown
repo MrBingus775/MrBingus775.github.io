@@ -158,8 +158,10 @@ order: 5
       </div>
       <div class="col-lg-6 center-text slide-in-reverse" style="text-align: center;">
           <div style="margin-bottom: 150px;"></div>
-          <h4><a target="_blank" href="https://pantheoninsights.substack.com">Stay up to date on geopolitics</a></h4>
-          <p style="font-size: 20px; margin-bottom: 30px;">Receive strategic intelligence reports straight to your inbox</p>
+          <h4>Stay up to date on geopolitics</h4>
+          <p style="font-size: 20px; margin-bottom: 30px;">
+            Receive <a target="_blank" href="https://pantheoninsights.substack.com">strategic intelligence reports</a> straight to your inbox
+          </p>
           <div id="custom-substack-embed" style="transform: scale(1.05);"></div>
           <div style="margin-bottom: 150px;"></div>
       </div>
