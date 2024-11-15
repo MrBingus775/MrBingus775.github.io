@@ -3,12 +3,15 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 
-    <a href="/">
-      <img style="filter: grayscale(1)" class="footer-logo py-1" src="/assets/logo_header.png" alt="Logo" height="50px" />
-    </a>
+    <!-- Add bootstrap inline classes -->
+    <div class="fade-in-fast d-inline-block">
+      <a href="/">
+        <img style="" class="footer-logo py-1" src="/assets/logo_header.png" alt="Logo" height="50px" />
+      </a>
+    </div>
 
     {%- if page_paths -%}
-      <nav class="site-nav">
+      <nav class="site-nav fade-in-fast">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
@@ -18,19 +21,11 @@
           </span>
         </label>
 
-        <div class="trigger">
-          <!-- ED - For now, just hardcoding the page paths because can't get ordering to work-->
-          <!-- {%- assign sorted_pages = site.pages | sort: "order_num" -%}
-          {%- for path in page_paths -%}
-            {%- assign my_page = sorted_pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-              <a class="page-header-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {%- endif -%}
-          {%- endfor -%} -->
-          <a class="page-header-link" href="/about/">About</a>
-          <a class="page-header-link" href="/insights/">Weekly Insights</a>
-          <a class="page-header-link" href="/services/">Consulting Services</a>
-          <a class="page-header-link" href="/contact/">Contact</a>
+        <div class="trigger fade-in-fast">
+          <a class="page-header-link {% if page.url contains '/about/' %}fw-bold{% endif %}" href="/about/">About</a>
+          <a class="page-header-link {% if page.url contains '/insights/' %}fw-bold{% endif %}" href="/insights/">Strategic Intelligence</a>
+          <a class="page-header-link {% if page.url contains '/services/' %}fw-bold{% endif %}" href="/services/">Consulting Services</a>
+          <a class="page-header-link {% if page.url contains '/contact/' %}fw-bold{% endif %}" href="/contact/">Contact</a>
         </div>
       </nav>
     {%- endif -%}

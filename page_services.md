@@ -4,9 +4,10 @@ title: Consulting Services
 permalink: /services/
 path: /services/
 order: 2
+description: "Requests for advisory services, speaking engagements, strategic insights, and briefings"
 ---
 
-<div class="scroller" id="scroller">
+<div class="scroller slide-in" id="scroller">
 <section id="executive-briefings">
 
   <h2>Executive Briefings</h2>
@@ -17,7 +18,7 @@ order: 2
 
   <div class="services-contact">
     <div style="text-align: center;">
-      <div><a href="/contact" class="btn btn-lg btn-primary">Request an Executive Briefing</a></div>
+      <div><a href="/contact" class="primary-button-lg">Request an Executive Briefing</a></div>
     </div>
   </div>
 
@@ -39,7 +40,7 @@ order: 2
 
   <div class="services-contact">
     <div style="text-align: center;">
-      <a href="/contact" class="btn btn-lg btn-primary">Request a Media Appearance</a>
+      <a href="/contact" class="primary-button-lg">Request a Media Appearance</a>
     </div>
   </div>
 
@@ -61,7 +62,7 @@ order: 2
 
   <div class="services-contact">
     <div style="text-align: center;">
-      <a href="/contact" class="btn btn-lg  btn-primary">Request a Geo-Series Theme</a>
+      <a href="/contact" class="primary-button-lg">Request a Geo-Series Theme</a>
     </div>
   </div>
 
@@ -83,13 +84,13 @@ order: 2
 
   <div class="services-contact">
     <div style="text-align: center;">
-      <a href="/contact" class="btn btn-lg btn-primary">Request Thought Leadership</a>
+      <a href="/contact" class="primary-button-lg">Request Thought Leadership</a>
     </div>
   </div>
 </section>
 </div>
 
-<div class="container-fluid text-center" style="margin-top: 80px; font-size: 20px;">
+<div class="container-fluid text-center slide-in" style="margin-top: 80px; font-size: 20px;">
   <p>
     <span class="services-nav-link" targetSection="#executive-briefings"><a role="button" class="">Executive Briefings</a></span>
     |

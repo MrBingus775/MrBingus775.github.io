@@ -1,3 +1,124 @@
+// Univeresal styles go here
+
+.fade-in-fast {
+  animation: fade-in 1s ease-in-out;
+}
+.fade-in {
+  animation: fade-in 2s ease-in-out;
+}
+.slide-in {
+  opacity: 0;
+  transform: translate3d(-100px, 0, 0);
+  transition: all 2s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform, opacity;
+}
+.slide-in-fast {
+  opacity: 0;
+  transform: translate3d(-300px, 0, 0);
+  transition: all 2s cubic-bezier(.48,-0.14,.47,1.11);
+  will-change: transform, opacity;
+  
+}
+.slide-in-slower {
+  opacity: 0;
+  transform: translate3d(-100px, 0, 0);
+  transition: all 4s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform, opacity;
+}
+.slide-in-reverse {
+  opacity: 0;
+  transform: translate3d(100px, 0, 0);
+  transition: all 2s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform, opacity;
+}
+.slide-in.show {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.slide-in-slower.show {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.slide-in-fast.show {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+.slide-in-reverse.show {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+.madness-animate {
+  animation: madness-animate 2s ease-in-out;
+}
+
+
+@keyframes madness-animate {
+  // Make it grow and shrink, with a bouncy effect
+  0% {
+    transform: scale(1);
+    padding-left: 0;
+    padding-right: 0;
+  }
+  50% {
+    transform: scale(1.5);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  100% {
+    transform: scale(1);
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@keyframes slide-in-slower {
+  0% {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.primary-button {
+  background: linear-gradient(to right, #000000, rgba(0, 0, 0, 0.847));
+  color: white !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  border-radius: 10px !important;
+  padding: 10px 20px !important;
+  // When hovered, make the background gradient more opaque
+  &:hover {
+    background: linear-gradient(to right, #6e6e6e, rgba(114, 114, 114, 0.9));
+  }
+}
+
+.primary-button-lg {
+  @extend .primary-button;
+  font-size: 22px !important;
+  padding: 15px 30px !important;
+}
+
+/* --------------------------------------------------------------- */
+
+
 /**
  * Reset some basic elements
  */
@@ -9,7 +130,6 @@ body, h1, h2, h3, h4, h5, h6,
    margin: 0;
    padding: 0;
  }
- 
  
  
  /**
