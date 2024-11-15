@@ -51,6 +51,13 @@
     line-height: 1.5;
   }
 
+  @media (max-width: 768px) {
+    padding: 25px;
+    p {
+      font-size: 0.8rem;
+    }
+  }
+
   h3 {
     margin-top: 15px;
     text-align: center;
