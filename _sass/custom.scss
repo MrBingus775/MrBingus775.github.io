@@ -54,3 +54,12 @@
   display: flex;
   justify-content: center;  
 }
+
+// Add this to your existing styles
+@media (max-width: 991px) { // sm screens
+  .index-work-with-us {
+    border-right: none !important;
+    border-bottom: 2px dotted #ddd !important;
+    padding-bottom: 50px;
+  }
+}

@@ -142,7 +142,7 @@ table td { border: 1px solid #e8e8e8; }
   .footer-col-3 { width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
 @media screen and (max-width: 600px) { .footer-col { float: none; width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
 /** Page content */
-.page-content { padding: 30px 0; flex: 1; }
+.page-content { padding-top: 30px; padding-bottom: 10px; flex: 1; }
 
 .page-heading { font-size: 32px; }
 
@@ -250,6 +250,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .center-image { display: flex; justify-content: center; }
 
+@media (max-width: 991px) { .index-work-with-us { border-right: none !important; border-bottom: 2px dotted #ddd !important; padding-bottom: 50px; } }
 .index-body { padding: 20px; border-radius: 10px; backdrop-filter: blur(2px); }
 
 @supports not (backdrop-filter: blur(2px)) { .index-body { background-color: rgba(255, 255, 255, 0); } }
