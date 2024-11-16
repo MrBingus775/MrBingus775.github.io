@@ -104,16 +104,28 @@
   font-size: 18px !important;
   border-radius: 10px !important;
   padding: 10px 20px !important;
+  display: inline-block;
+  text-align: center;
   // When hovered, make the background gradient more opaque
   &:hover {
     background: linear-gradient(to right, #6e6e6e, rgba(114, 114, 114, 0.9));
+  }
+
+  @media (max-width: 768px) {
+    font-size: 16px !important;
+    padding: 5px 10px !important;
   }
 }
 
 .primary-button-lg {
   @extend .primary-button;
-  font-size: 22px !important;
-  padding: 15px 30px !important;
+  font-size: 20px !important;
+  padding: 15px 20px !important;
+
+  @media (max-width: 768px) {
+    font-size: 16px !important;
+    padding: 10px 15px !important;
+  }
 }
 
 /* --------------------------------------------------------------- */
