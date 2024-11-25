@@ -29,7 +29,7 @@ order: 1
   </div>
   <div class="col-md-4 slide-in-reverse">
     <div class="center-image" style="height: 100%; display: flex; align-items: center;">
-      <img class="shadow-image" style="width: 95%; border-radius: 10px; filter: grayscale(100%); max-width: 50vw;" src="/assets/images/planet.jpeg">
+      <img class="shadow-image" style="width: 95%; border-radius: 10px; filter: grayscale(100%); max-width: 50vw;" src="/assets/images/telescope.jpeg">
     </div>
   </div>
 </div>
